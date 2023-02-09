@@ -1,0 +1,16 @@
+.homepage-container{
+    display: flex;
+    justify-content: space-between; 
+
+    .sidebar{
+        width: 20%;
+        position: fixed;
+        z-index: 2; 
+    }
+
+    .content{
+        width: 75%;   
+        position: absolute;
+        left: 22%; 
+    }
+}

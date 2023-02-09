@@ -1,0 +1,15 @@
+.sidebar-container{ 
+    padding: 30px;
+    color: #0099FF;
+    p{
+        cursor: pointer;
+        margin: 25px 0px;
+        user-select: none;
+        font-weight: 600;
+    }
+   
+    background-color: #F7F7F7; 
+    overflow: scroll;
+    height: 100vh; 
+    
+}

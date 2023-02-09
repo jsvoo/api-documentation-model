@@ -1,0 +1,26 @@
+.navigation-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+    margin-bottom: 30px;
+
+
+    .logo{
+        width: 5%;
+        font-weight: 900;
+        font-size: 30px;
+        img{
+            width: 100%;
+        }
+    }
+    .links{
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        p{
+            user-select: none;
+            cursor: pointer;
+        }
+    }
+}
