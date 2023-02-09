@@ -11,7 +11,7 @@ export default function Homepage() {
                 <div className="content">
                     <Navigation />
                     <div className="body">
-                        other part
+                        Body Here
                     </div>
                 </div>
             </div>
