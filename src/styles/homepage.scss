@@ -12,5 +12,46 @@
         width: 75%;   
         position: absolute;
         left: 22%; 
+        height: 1000px;
+    }
+
+    .all{
+        margin: 20px;
+        h3{
+            margin: 10px;
+        }
+
+        .input{
+            background-color: #F7F7F7; 
+            margin: 10px;
+            width: 60%;
+            padding: 20px;
+        }
+        
+        .output-section, .input-section{
+            background-color: #F7F7F7; 
+            width: 70%;
+            border-radius: 5px;
+
+        }
+        .output{
+            width: 10%;
+            margin: 10px;
+            padding: 20px;
+        }
+        .hide-btn{
+            border: 1px solid #0099FF;
+            color: #0099FF;
+            padding: 10px;
+            background-color: transparent;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 10px 0px;
+
+            &:hover{
+                background-color: #0099FF;
+                color: white;
+            }
+        }
     }
 }
