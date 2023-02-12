@@ -11,8 +11,7 @@ export default function Homepage() {
                 </div>
                 <div className="content">
                     <Navigation />
-                    <div className="body">
-                        Body Here
+                    <div className="body"> 
                         <div className="products">
                             <h2> <BiCube /> Products</h2>
 
