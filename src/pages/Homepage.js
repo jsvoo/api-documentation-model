@@ -12,6 +12,7 @@ export default function Homepage() {
                 <div className="content">
                     <Navigation />
                     <div className="body">
+                        Body Here
                         <div className="products">
                             <h2> <BiCube /> Products</h2>
 
