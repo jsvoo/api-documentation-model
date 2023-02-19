@@ -88,8 +88,8 @@ export default function Homepage() {
                           <div className="all" key={i}>
                             <h3>{item.caption}</h3>
                             <div className="input-section">
-                              {api.name !== "Login" && item.method === "POST" ||
-                              item.method === "PUT"  || item.method === "DELETE"  ? (
+                              {api.name !== "Login" && (item.method === "POST" ||
+                              item.method === "PUT"  || item.method === "DELETE")  ? (
                                 <pre className="input">
                                   {`fetch(base_url${item.route},{
 
