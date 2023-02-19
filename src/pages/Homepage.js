@@ -133,9 +133,9 @@ export default function Homepage() {
                             <button className="hide-btn">Hide output</button>
                             <div className="output-section">
                               <pre className="output">
-                                {
-                                  // item.success.data[0]
-                                }
+                                
+                                 // RESPONSE ON CONSOLE HERE
+                               
                               </pre>
                             </div>
                           </div>
