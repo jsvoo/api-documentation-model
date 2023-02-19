@@ -125,8 +125,8 @@ export default function Homepage() {
                                     ` base_url{item.route}`
                                   </span>
                                   ) <br />
-                                  .then(res=>res.json()) <br />
-                                  .then(json=>console.log(json))
+                                  .then(res=&gt;res.json()) <br />
+                                  .then(json=&gt;console.log(json))
                                 </pre>
                               )}
                             </div>
